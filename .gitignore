@@ -15,3 +15,6 @@ Thumbs.db
 # Output and local data caches
 .pytest_cache/
 .ipynb_checkpoints/
+
+Drill_Bit_Optimizer.mp4
+consolidated_interaction_tensor.csv
