@@ -59,8 +59,9 @@ https://github.com/user-attachments/assets/b0a7df62-29d6-4258-8a78-4bbe4bc42a38
 1. **Clone this repository** to your local workstation.
 2. **Install the required dependencies** via your terminal:
    ```bash
-   1. pip install tensorflow pandas numpy cadquery pyvista trimesh seaborn matplotlib
-   2. Execute the core engineering script: Drill_Bit_Optimizer.py
-   3. Inspect the validated parametric production geometry saved inside: Output/industrial_pinn_drill_bit.step
+   pip install tensorflow pandas numpy cadquery pyvista trimesh seaborn matplotlib
+   ```
+3. **Execute the core engineering script:** Drill_Bit_Optimizer.py
+4. **Inspect the validated parametric production geometry saved inside:** Output/industrial_pinn_drill_bit.step
 
-   Note: For a deep dive into the underlying chemical equations, boundary loss inequalities, and LaTeX derivations, see the accompanying TECHNICAL_BRIEF.md.
+**Note:** For a deep dive into the underlying chemical equations, boundary loss inequalities, and LaTeX derivations, see the accompanying TECHNICAL_BRIEF.md.
