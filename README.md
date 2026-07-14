@@ -47,6 +47,8 @@ Restoring model weights from the end of the best epoch: 30.
 💾 Production STEP file saved to: /Output/industrial_pinn_drill_bit.step
 🚀 Launching presentation viewport...
 
+---
+
 ## 📐 Generative 3D CAD Output Showcase
 
 <video src="Drill_Bit_Optimizer.mp4" width="100%" controls autoplay loop muted></video>
