@@ -51,5 +51,5 @@ Restoring model weights from the end of the best epoch: 30.
 ## 📐 Generative 3D CAD Output Showcase
 
 <div align="center">
-  <video src="Drill_Bit_Optimizer.mp4" width="100%" controls autoplay loop muted></video>
+  <video src="https://raw.githubusercontent.com/altugrakay-commits/Drill-Bit-Optimizer/main/Drill_Bit_Optimizer.mp4" width="100%" controls autoplay loop muted></video>
 </div>
