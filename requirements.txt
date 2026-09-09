@@ -1,0 +1,21 @@
+# Core machine learning and data processing
+tensorflow>=2.11.0
+numpy>=1.23.0
+pandas>=1.5.0
+
+# CAD and geometry
+cadquery>=2.4.0
+pyvista>=0.40.0
+trimesh>=3.22.0
+meshio>=5.3.0
+
+# Visualisation and plotting
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Web interface
+streamlit>=1.20.0
+
+# Optional (for volume meshing, not used in the core pipeline)
+# gmsh>=4.11.0
+# netgen>=6.2.0
