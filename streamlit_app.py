@@ -1,6 +1,6 @@
 # streamlit_app.py
 # Streamlit web interface for PDC Drill Bit Designer.
-
+os.environ['OCC_DISABLE_GL'] = '1'
 import streamlit as st
 from iadc_mapper import decode_iadc, IADC_BODY, IADC_FORMATION, IADC_CUTTER, IADC_PROFILE
 from main import run_design
