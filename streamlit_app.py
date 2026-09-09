@@ -22,9 +22,9 @@ code = f"{body[0]}{formation[0]}{cutter[0]}{profile[0]}"
 st.info(f"**IADC Code:** `{code}`")
 
 with col2:
-    st.subheader("Decoded Parameters")
-    params = decode_iadc(code)
-    st.json(params)
+    with st.expander("Decoded IADC Parameters"):
+        params = decode_iadc(code)
+        st.json(params)
 
 if st.button("🚀 Generate PDC Bit", type="primary"):
     with st.spinner("Generating bit..."):
